@@ -1,4 +1,10 @@
 import React, { useState } from "react";
+import hc05SetupImg from "../assets/images/hc05_arduino_setup_1782281614148.jpg";
+import phoneBluetoothRobotImg from "../assets/images/phone_bluetooth_robot_car_1782282034821.jpg";
+import rcRobotCarsImg from "../assets/images/rc_robot_cars_1782282435000.jpg";
+import wirelessMusicImg from "../assets/images/wireless_music_1782282450862.jpg";
+import smartHomeLightsImg from "../assets/images/smart_home_lights_1782282463923.jpg";
+import vikingHaraldImg from "../assets/images/viking_harald_bluetooth_1782282694624.jpg";
 import { 
   Sparkles, 
   Radio, 
@@ -115,7 +121,7 @@ export default function IoTBasics() {
             >
               <div className="relative w-full aspect-[16/9] sm:aspect-[21/9] lg:aspect-[2.4/1] overflow-hidden border-b-4 border-[#0C4A6E] bg-slate-900">
                 <img 
-                  src="/src/assets/images/hc05_arduino_setup_1782281614148.jpg" 
+                  src={hc05SetupImg} 
                   alt="Arduino connected to HC-05 Bluetooth" 
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover opacity-90 hover:scale-102 transition-transform duration-700"
@@ -215,7 +221,7 @@ export default function IoTBasics() {
                 </span>
                 <div className="relative w-full max-w-[340px] aspect-[4/3] rounded-2xl overflow-hidden border border-slate-200/80 bg-white shadow-md">
                   <img 
-                    src="/src/assets/images/phone_bluetooth_robot_car_1782282034821.jpg" 
+                    src={phoneBluetoothRobotImg} 
                     alt="Smartphone controlling robot via Bluetooth link" 
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-contain"
@@ -315,7 +321,7 @@ export default function IoTBasics() {
                 <div className="flex flex-col items-center space-y-4 text-center group">
                   <div className="w-full max-w-[280px] aspect-[4/3] rounded-3xl overflow-hidden border-2 border-slate-100 shadow-md bg-white p-2 transition-transform duration-300 hover:scale-103">
                     <img 
-                      src="/src/assets/images/rc_robot_cars_1782282435000.jpg" 
+                      src={rcRobotCarsImg} 
                       alt="Remote Controlled Robot Cars" 
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover rounded-2xl"
@@ -335,7 +341,7 @@ export default function IoTBasics() {
                 <div className="flex flex-col items-center space-y-4 text-center group">
                   <div className="w-full max-w-[280px] aspect-[4/3] rounded-3xl overflow-hidden border-2 border-slate-100 shadow-md bg-white p-2 transition-transform duration-300 hover:scale-103">
                     <img 
-                      src="/src/assets/images/wireless_music_1782282450862.jpg" 
+                      src={wirelessMusicImg} 
                       alt="Wireless Music Headphones" 
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover rounded-2xl"
@@ -355,7 +361,7 @@ export default function IoTBasics() {
                 <div className="flex flex-col items-center space-y-4 text-center group">
                   <div className="w-full max-w-[280px] aspect-[4/3] rounded-3xl overflow-hidden border-2 border-slate-100 shadow-md bg-white p-2 transition-transform duration-300 hover:scale-103">
                     <img 
-                      src="/src/assets/images/smart_home_lights_1782282463923.jpg" 
+                      src={smartHomeLightsImg} 
                       alt="Smart Home and Lights" 
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover rounded-2xl"
@@ -399,7 +405,7 @@ export default function IoTBasics() {
                 <div className="md:col-span-5 flex justify-center">
                   <div className="w-full max-w-[320px] aspect-[4/3] rounded-3xl overflow-hidden border-2 border-slate-100 shadow-md bg-white p-2">
                     <img 
-                      src="/src/assets/images/viking_harald_bluetooth_1782282694624.jpg" 
+                      src={vikingHaraldImg} 
                       alt="King Harald Bluetooth Cartoon Illustration" 
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover rounded-2xl"

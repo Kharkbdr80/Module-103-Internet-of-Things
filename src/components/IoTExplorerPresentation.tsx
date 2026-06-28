@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import toyRobotImg from "../assets/images/toy_robot_iot_1781502265872.jpg";
+import smartWatchImg from "../assets/images/smart_watch_children_1781510861458.jpg";
+import smartLightsImg from "../assets/images/smart_lights_app_1781510880700.jpg";
+import smartRobotChildImg from "../assets/images/smart_robot_child_1781510894439.jpg";
+import iotNetworkGlobeImg from "../assets/images/iot_network_globe_1781511545392.jpg";
 import { 
   Sparkles, 
   ArrowRight, 
@@ -172,7 +177,7 @@ export default function IoTExplorerPresentation({ onComplete }: IoTExplorerPrese
                 <div className="relative flex flex-col items-center">
                   <div className="bg-slate-50 rounded-[2.5rem] p-4 border-4 border-[#0C4A6E] shadow-xl relative overflow-hidden transition-transform duration-300 hover:scale-[1.02] bg-white group">
                     <img 
-                      src="/src/assets/images/toy_robot_iot_1781502265872.jpg" 
+                      src={toyRobotImg} 
                       alt="Cute IoT Toy Robot" 
                       referrerPolicy="no-referrer"
                       className="w-full max-w-[280px] h-[280px] object-cover rounded-[1.75rem] shadow-inner"
@@ -268,7 +273,7 @@ export default function IoTExplorerPresentation({ onComplete }: IoTExplorerPrese
                   <div className="bg-white border-3 border-[#38BDF8] rounded-[2.5rem] p-5 flex flex-col items-center text-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
                     <div className="w-full aspect-square rounded-[2rem] overflow-hidden mb-4 border-2 border-slate-100 shadow-inner bg-slate-50">
                       <img 
-                        src="/src/assets/images/smart_watch_children_1781510861458.jpg" 
+                        src={smartWatchImg} 
                         alt="Smart Watch counts your jumps" 
                         referrerPolicy="no-referrer"
                         className="w-full h-full object-cover"
@@ -286,7 +291,7 @@ export default function IoTExplorerPresentation({ onComplete }: IoTExplorerPrese
                   <div className="bg-white border-3 border-[#A855F7] rounded-[2.5rem] p-5 flex flex-col items-center text-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
                     <div className="w-full aspect-square rounded-[2rem] overflow-hidden mb-4 border-2 border-slate-100 shadow-inner bg-slate-50">
                       <img 
-                        src="/src/assets/images/smart_lights_app_1781510880700.jpg" 
+                        src={smartLightsImg} 
                         alt="Smart Lights change colors" 
                         referrerPolicy="no-referrer"
                         className="w-full h-full object-cover"
@@ -304,7 +309,7 @@ export default function IoTExplorerPresentation({ onComplete }: IoTExplorerPrese
                   <div className="bg-white border-3 border-[#FF6321] rounded-[2.5rem] p-5 flex flex-col items-center text-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.02]">
                     <div className="w-full aspect-square rounded-[2rem] overflow-hidden mb-4 border-2 border-slate-100 shadow-inner bg-slate-50">
                       <img 
-                        src="/src/assets/images/smart_robot_child_1781510894439.jpg" 
+                        src={smartRobotChildImg} 
                         alt="Smart Toy robot dances" 
                         referrerPolicy="no-referrer"
                         className="w-full h-full object-cover"
@@ -333,7 +338,7 @@ export default function IoTExplorerPresentation({ onComplete }: IoTExplorerPrese
                 <div className="relative flex flex-col items-center">
                   <div className="bg-white rounded-[2.5rem] p-4 border-4 border-[#0C4A6E] shadow-xl relative overflow-hidden transition-transform duration-300 hover:scale-[1.02] w-full max-w-[320px]">
                     <img 
-                      src="/src/assets/images/iot_network_globe_1781511545392.jpg" 
+                      src={iotNetworkGlobeImg} 
                       alt="Cyber spherical globe of IoT network" 
                       referrerPolicy="no-referrer"
                       className="w-full h-[260px] object-cover rounded-[1.75rem] shadow-inner"

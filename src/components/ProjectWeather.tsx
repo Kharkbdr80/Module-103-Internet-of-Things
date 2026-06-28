@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import weatherSensorImg from "../assets/images/weather_sensor_img_1780297188823.png";
+import cozyLivingRoomImg from "../assets/images/cozy_smart_living_room_1781958509728.jpg";
 import { 
   Sparkles, 
   Cpu, 
@@ -170,7 +172,7 @@ export default function ProjectWeather() {
       <div className="bg-white rounded-[2.5rem] p-6 shadow-xl border-2 border-slate-200 flex flex-col md:flex-row gap-6 items-center border-b-8 border-[#4ADE80]">
         <div className="w-full md:w-1/3">
           <img 
-            src="/src/assets/images/weather_sensor_img_1780297188823.png" 
+            src={weatherSensorImg} 
             alt="Climate Sensor Diagram"
             className="w-full h-auto rounded-3xl object-cover shadow-inner border border-slate-100"
             referrerPolicy="no-referrer"
@@ -920,7 +922,7 @@ export default function ProjectWeather() {
             {/* Smart Room Image & HUD Area */}
             <div className="relative w-full flex-1 min-h-[300px] rounded-[1.75rem] overflow-hidden border-2 border-slate-100 shadow-md">
               <img 
-                src="/src/assets/images/cozy_smart_living_room_1781958509728.jpg" 
+                src={cozyLivingRoomImg} 
                 alt="Cozy Smart Living Room" 
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

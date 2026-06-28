@@ -1,10 +1,14 @@
 import { ComponentItem, ProjectItem } from "./types";
+import heroImg from "./assets/images/riti_logo_1782625802300.jpg";
+import ledCircuitImg from "./assets/images/led_circuit_img_1780297149716.png";
+import servoCircuitImg from "./assets/images/servo_circuit_img_1780297171543.png";
+import weatherCircuitImg from "./assets/images/weather_sensor_img_1780297188823.png";
 
 export const IMAGES = {
-  hero: "/src/assets/images/riti_logo_1782625802300.jpg",
-  ledCircuit: "/src/assets/images/led_circuit_img_1780297149716.png",
-  servoCircuit: "/src/assets/images/servo_circuit_img_1780297171543.png",
-  weatherCircuit: "/src/assets/images/weather_sensor_img_1780297188823.png",
+  hero: heroImg,
+  ledCircuit: ledCircuitImg,
+  servoCircuit: servoCircuitImg,
+  weatherCircuit: weatherCircuitImg,
 };
 
 export const PROJECTS_DATA: ProjectItem[] = [

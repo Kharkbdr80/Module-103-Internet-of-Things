@@ -1,0 +1,6 @@
+{
+  "name": "Module 103 Internet of Things",
+  "description": "An interactive, visual, and highly educational IoT Simulator designed for lower-grade students to easily understand microcontrollers, Bluetooth control, servo motors, and weather sensors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
